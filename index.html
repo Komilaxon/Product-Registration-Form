@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>homework-10</title>
+  </head>
+
+  <body>
+    <div class="registr-box">
+      <h1 class="registr-title">Product Registration Form</h1>
+      <p class="registr-text">
+        Register your product by filling in the product registration form below.
+      </p>
+      <hr class="registr-line" />
+
+      <div class="name-content">
+        <div class="name-box">
+          <form>
+            <label for="name">Name</label><br />
+            <input type="name" name="name" id="name" placeholder="First" />
+          </form>
+        </div>
+        <div class="name-box">
+          <form>
+            <label class="active" for="name"></label>
+            <input type="name" name="name" id="name" placeholder="Last" />
+          </form>
+        </div>
+      </div>
+
+      <div class="email-content">
+        <div class="email-box">
+          <form>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" id="email" />
+          </form>
+        </div>
+        <div class="phone-box">
+          <form>
+            <label for="phone">Phone</label><br />
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="### ### ####"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="addres-box">
+        <label for="address">Address</label><br />
+        <input
+          class="address"
+          type="address"
+          name="address"
+          id="address"
+          placeholder="Street Address"
+        />
+      </div>
+      <div class="city-content">
+        <div class="city-box">
+          <input type="city" name="city" id="city" placeholder="City" />
+        </div>
+        <div class="state-box">
+          <select name="state" id="state">
+            <option class="state" value="state">State</option>
+            <option value="state"></option>
+            <option value="state"></option>
+          </select>
+        </div>
+      </div>
+
+      <div class="postal-content">
+        <div class="postal-box">
+          <input
+            type="postal"
+            name="postal"
+            id="postal"
+            placeholder="Postal/ Zip Code"
+          />
+        </div>
+        <div class="state-box">
+          <select name="country" id="country">
+            <option class="state" value="country">Country</option>
+            <option value="country"></option>
+            <option value="country"></option>
+          </select>
+        </div>
+      </div>
+      <p class="product-title">Product Information</p>
+
+      <div class="product-name-content">
+        <div class="product-name-box">
+          <form>
+            <label for="product-name">Product Name</label><br />
+            <input type="product-name" name="product-name" id="product-name" />
+            <p class="product-text">e.g.Laptop</p>
+          </form>
+        </div>
+        <div class="product-brand-box">
+          <form>
+            <label for="product-brand">Product Brand & model</label><br />
+            <input
+              type="product-brand"
+              name="product-brand"
+              id="product-brand"
+            />
+            <p class="product-text">e.g.Acer Aspire Netro</p>
+          </form>
+        </div>
+      </div>
+
+      <div class="model-content">
+        <div class="model-box">
+          <form>
+            <label for="model">Product Model ID</label><br />
+            <input type="model" name="model" id="model" />
+            <p class="product-text">e.g.VN7793G7502</p>
+          </form>
+        </div>
+        <div class="fabrication-box">
+          <form>
+            <label for="fabrication">Product Fabrication Year</label><br />
+            <input type="fabrication" name="fabrication" id="fabrication" />
+            <p class="product-text">e.g.2012</p>
+          </form>
+        </div>
+      </div>
+      <form>
+        <label for="calendar">Purchase Date</label><br />
+        <input
+          class="calendar"
+          type="date"
+          name="calendar"
+          id="calendar"
+        />
+        <p class="product-text">e.g 12/04/2017</p>
+        <a class="registr-link" href="#">Register product</a>
+      </form>
+    </div>
+  </body>
+</html>

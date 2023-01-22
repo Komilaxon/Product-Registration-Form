@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #B5C8C1;
+}
+
+.registr-box{
+    background-color: #DDF4EE;
+    width: 560px;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+.registr-title{
+    color:#23622B;
+    font-size: 25px;
+    line-height: 20px;
+    font-style: normal;
+    padding-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    
+}
+.registr-text{
+    color:#23622B;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.registr-line{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.name-content{
+    display: flex;
+    align-items: flex-end;
+}
+
+.email-content{
+    display: flex;
+}
+.addres-box{
+    display: block;
+}
+.city-content{
+    display: flex;
+}
+.postal-content{
+    display: flex;
+}
+.product-name-content{
+    display: flex;
+}
+.model-content{
+    display: flex;
+}
+
+label{
+    color:#23622B;
+    margin-left: 10px;
+}
+
+input{
+    width: 255px;
+    padding: 10px;
+    background-color: #EDF9F7;
+    border: 2px solid #7A978B;
+    margin-left: 15px;
+    margin-left: 10px;
+    /* margin-right: 5px; */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* display: inline; */
+   
+}
+.address{
+    width: 520px;
+}
+.active{
+    margin-left: 0;
+}
+select{
+    width: 255px;
+    padding: 10px;
+    background-color: #EDF9F7;
+    border: 2px solid #7A978B;
+    margin-left: 15px;
+    margin-left: 10px;
+    /* margin-right: 5px; */
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.product-title{
+    line-height: 20px;
+    font-size: 20px;
+    color:#7A978B;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-transform:uppercase;
+}
+
+.product-text{
+    font-size: 15px;
+    color:grey;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.registr-link{
+    font-size: 13px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color:#23622B;
+    width: 190px;
+    border-radius: 50px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.calendar{
+    width: 200px;
+}
